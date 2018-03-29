@@ -27,6 +27,8 @@ namespace Password_Generator
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            statusLabel.Content = "Generating password...";
+            resultLabel.Content = "test string";
         }
     }
 }
