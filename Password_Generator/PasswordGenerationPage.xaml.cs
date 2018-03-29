@@ -16,15 +16,17 @@ using System.Windows.Shapes;
 namespace Password_Generator
 {
     /// <summary>
-    /// Interaction logic for PasswordResult.xaml
+    /// Interaction logic for PasswordGenerationPage.xaml
     /// </summary>
-    public partial class PasswordResult : Page
+    public partial class PasswordGenerationPage : Page
     {
-        public PasswordResult(object data)
+        public PasswordGenerationPage()
         {
-            // Bind to expense report data.
-            this.DataContext = data;
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
         }
     }
 }

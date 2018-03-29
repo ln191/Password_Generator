@@ -25,11 +25,16 @@ namespace Password_Generator
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Generate Password Button_Click
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            // View Expense Report
-            PasswordResult passwordResultPage = new PasswordResult(this.peopleListBox.SelectedItem);
-            this.NavigationService.Navigate(passwordResultPage);
+            // Go to Password generation page
+            PasswordGenerationPage passwordGenerationPage = new PasswordGenerationPage();
+            this.NavigationService.Navigate(passwordGenerationPage);
         }
     }
 }

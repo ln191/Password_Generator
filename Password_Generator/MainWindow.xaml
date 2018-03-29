@@ -5,5 +5,5 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Password_Generator"
         mc:Ignorable="d"
-        Title="Password Generator" Height="375" Width="500" Source="PasswordGeneratorHome.xaml">
+        Title="Password Generator" Height="400" Width="400" Source="PasswordGeneratorHome.xaml">
 </NavigationWindow>
